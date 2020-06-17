@@ -1,0 +1,38 @@
+{
+  "name": "cypress-slack-test",
+  "version": "0.0.1",
+  "description": "Library that adds commands to Cypress to help navigate trough Slack for end-to-end testing you Slack bots",
+  "main": "src/index.js",
+  "files": [
+    "src/**"
+  ],
+  "types": "src/index.d.ts",
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrono-Innovation/cypress-slack-test.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Slack",
+    "e2e",
+    "end-to-end-testing"
+  ],
+  "author": "Chrono Innovation <github@chronoinnovation.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chrono-Innovation/cypress-slack-test/issues"
+  },
+  "homepage": "https://github.com/Chrono-Innovation/cypress-slack-test#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "~6.0.0",
+    "cypress": "^4.8.0",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "@testing-library/cypress": "~6.0.0",
+    "cypress": "^4.8.0"
+  }
+}
