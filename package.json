@@ -1,6 +1,6 @@
 {
   "name": "cypress-slack-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library that adds commands to Cypress to help navigate trough Slack for end-to-end testing you Slack bots",
   "main": "src/index.js",
   "files": [
